@@ -1,0 +1,7 @@
+Setup:
+yarn global add gatsby-cli
+yarn global add gatsby-dev-cli
+
+gatsby new webdev_101
+
+yarn add node-sass gatsby-plugin-sass gsap
