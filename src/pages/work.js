@@ -14,17 +14,17 @@ const Work = () => (
     <br/>
 <Row>
     <Col className="imageCenter">
-     <CardContainer title="edmonton oil kings" text="something interesting about hockey" /> 
+     <CardContainer title="Marble Slab" text="I ❤️ 🍦 " /> 
     </Col>
-    <Col><img src="../hockey.png" alt="fist" width="50%"></img></Col>
+    <Col><img src="../marbleslab.png" alt="Marble Slab" width="25%"></img></Col>
   </Row>
   <br/>
   <Row>
     <Col>
-    <img src="../hockey.png" alt="fist" width="50%"></img>
+    <img src="../saskatoon.jpg" alt="Hockey" width="50%"></img>
     </Col>
     <Col>
-    <CardContainer title="edmonton oil kings" text="something interesting about hockey" /> 
+    <CardContainer title="Goaltender" text="something interesting about hockey 🏒" /> 
     </Col>
   </Row>
 </Container>
