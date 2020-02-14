@@ -13,7 +13,7 @@ const Contact = ({ siteTitle }) => (
 <Header />
 <Container>
 <h1>Contact Me</h1>
-<Form>
+<Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
   <Form.Row>
     <Form.Group as={Col} controlId="formGridFirstName">
       <Form.Label>First Name</Form.Label>
