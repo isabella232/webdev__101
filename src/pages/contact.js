@@ -14,7 +14,7 @@ const Contact = ({ siteTitle }) => (
 <Container>
 <h1>Contact Me</h1>
 <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-<input type="hidden" name="contact" value="contact" />
+<input type="hidden" name="form-name" value="contact" />
   <Form.Row>
     <Form.Group as={Col} controlId="formGridFirstName">
       <Form.Label>First Name</Form.Label>
