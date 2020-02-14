@@ -91,6 +91,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99282541-8fd2-4bf5-aec3-2a2f45c68ba4/deploy-status)](https://app.netlify.com/sites/webdev-101/deploys)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
