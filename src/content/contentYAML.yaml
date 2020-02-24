@@ -1,0 +1,42 @@
+about:
+contact:
+work:
+index:
+  title: Employment and Experience
+  content: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+notFound:
+  error: "404 Error"
+title: heh
+header:
+  logo:
+    title: Bodie
+    link: /
+  navigation:
+    - content:
+      title: About Me
+      link: /about
+    - content:
+      title: Work
+      link: /work
+    - content:
+      title: Contact
+      link: /contact
+card:
+  - content:
+    title: Arcade Machinessss
+    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    timeStamp: Last updated 1 month ago
+    imgSrc: ../arcade.png
+    url: ../about
+  - content:
+    title: Simonososo
+    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    timeStamp: Last updated 3 years ago
+    imgSrc: ../simon.png
+    url: ../about
+  - content:
+    title: Fanoronafwfw ef
+    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    timeStamp: Last updated 2 years ago
+    imgSrc: ../fanorona.png
+    url: ../about
