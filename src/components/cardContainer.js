@@ -18,9 +18,6 @@ const CardContainer = (props) => {
       {props.text}
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-        <small className="text-muted">{props.timeStamp}</small>
-    </Card.Footer>
   </Card>
 </>
 )
