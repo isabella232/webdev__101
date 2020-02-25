@@ -1,21 +1,23 @@
 import { Link } from "gatsby"
 import React from "react"
+import content from "../content/contentYAML.yaml"
 
-const Header = ({ siteTitle }) => (
+
+const Header = () => (
   <header>
     <div className="container">
       <div className="inner-header">
         <div className="logo">
-            <Link to="/">Tyler Santos</Link>
+          <Link to={content.header.logo.link}>{content.header.logo.title}</Link>
         </div>
-        <div class="navigation">
+        <div className="navigation">
           <nav>
-            <Link to="/about">About Me</Link>
-            <Link to="/work">Work</Link>
-            <Link to="/contact">Contact</Link>
+            {content.header.navigation.map((nav) => {
+              return <Link to={nav.link}>{nav.title}</Link>
+            })}
           </nav>
         </div>
-        </div>  
+      </div>
     </div>
   </header>
 )
