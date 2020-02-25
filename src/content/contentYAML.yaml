@@ -47,7 +47,9 @@ about:
       alt: Third slide
       title: Third slide label
       description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-
+banner:
+  name: Bodie
+  title: Chief Morale Officer
 contact:
 work:
 index:
@@ -75,17 +77,17 @@ card:
     title: Arcade Machinessss
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
     timeStamp: Last updated 1 month ago
-    imgSrc: ../arcade.png
+    imgSrc: ../bodieflag.jpg
     url: ../about
   - content:
     title: Simonososo
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
     timeStamp: Last updated 3 years ago
-    imgSrc: ../simon.png
+    imgSrc: ../bodiedonut.jpg
     url: ../about
   - content:
     title: Fanoronafwfw ef
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
     timeStamp: Last updated 2 years ago
-    imgSrc: ../fanorona.png
+    imgSrc: ../bodiesit.jpg
     url: ../about
