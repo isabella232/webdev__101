@@ -52,9 +52,23 @@ banner:
   title: Chief Morale Officer
 contact:
 work:
+  title: Employment
+  description: Hey i'm Bodie and I am the chief morale officer at Jobber
+  workSection:
+    - content:
+      title: Puppy School
+      text: passed with flying colors, best puppy around
+      img:
+      alt: puppy school
+    - content:
+      title: Welcome Mat
+      text: I graduated from the esteemed college of welcome mat
+      img:
+      alt: welcome mat
 index:
   title: Employment and Experience
-  content: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  content: Testeroni
+  buttonText: Learn more
 notFound:
   error: "404 Error"
 title: heh
@@ -78,13 +92,13 @@ card:
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
     timeStamp: Last updated 1 month ago
     imgSrc: ../bodieflag.jpg
-    url: ../about
+    url: https://www.instagram.com/bodie.break/
   - content:
     title: Simonososo
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
     timeStamp: Last updated 3 years ago
     imgSrc: ../bodiedonut.jpg
-    url: ../about
+    url: https://www.minibabybel.ca/en-ca/products
   - content:
     title: Fanoronafwfw ef
     text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.

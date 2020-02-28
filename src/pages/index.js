@@ -17,6 +17,7 @@ const IndexPage = () => (
     <JumbotronContainer
       title = {content.index.title}
       message = {content.index.content}
+      buttonText={content.index.buttonText}
     />
   </div>
   )

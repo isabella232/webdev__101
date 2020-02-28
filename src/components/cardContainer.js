@@ -11,7 +11,7 @@ const CardContainer = (props) => {
     return(
 <>
   <Card>
-    <Link to={props.url}><Card.Img variant="top" src={props.imgSrc} /></Link>
+    <a href={props.url}><Card.Img variant="top" src={props.imgSrc} /></a>
     <Card.Body>
       <Card.Title>{props.title}</Card.Title>
       <Card.Text>
