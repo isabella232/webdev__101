@@ -88,20 +88,17 @@ header:
       link: /contact
 card:
   - content:
-    title: Arcade Machinessss
-    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-    timeStamp: Last updated 1 month ago
+    title: Instagram
+    text: If you want to keep up with my shenanigans follow me on Instagram
     imgSrc: ../bodieflag.jpg
     url: https://www.instagram.com/bodie.break/
   - content:
-    title: Simonososo
-    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-    timeStamp: Last updated 3 years ago
+    title: Cheese
+    text: One of my favourite snacks in the world is babybell cheese!
     imgSrc: ../bodiedonut.jpg
     url: https://www.minibabybel.ca/en-ca/products
   - content:
-    title: Fanoronafwfw ef
-    text: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-    timeStamp: Last updated 2 years ago
+    title: Schnauzers
+    text: Would you like to learn more about Schnauzers?
     imgSrc: ../bodiesit.jpg
-    url: ../about
+    url: https://www.hillspet.com/dog-care/dog-breeds/standard-schnauzer
