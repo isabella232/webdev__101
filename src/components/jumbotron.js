@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "gatsby"
 import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Image from 'react-bootstrap/Image'
 
 const JumbotronContainer = (props) => {
     return(
