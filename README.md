@@ -5,14 +5,24 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Web Dev 101 Gatsby Personal Portfolio Starter
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## 🚀 Quick start - Modifying our existing portfolio!
 
-## 🚀 Quick start
+1.  **Clone the repository.**
+
+2.  **Install Gatsby.**
+    
+    npm install -g gatsby-cli
+
+3.  **CD into the directory and run gatsby.**
+    
+    gatsby develop
+
+## 🚀 Quick start - Creating a site from scratch!
 
 1.  **Create a Gatsby site.**
 
