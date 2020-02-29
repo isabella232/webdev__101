@@ -1,17 +1,21 @@
 import React from "react"
 import "../styles/styles.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'react-bootstrap/Image'
+
 
 //Import Components
 import Header from "../components/header"
 import Banner from "../components/banner"
 import Cards from "../components/cards"
 import JumbotronContainer from "../components/jumbotron"
+import NavbarContainer from "../components/navbarContainer"
+import BannerContainer from "../components/bannerContainer";
 
 const IndexPage = () => (
   <div>
-    <Header />
-    <Banner />
+    <NavbarContainer />
+    <BannerContainer />
     <Cards />
     <JumbotronContainer 
       title ="Employment and Experience"

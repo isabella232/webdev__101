@@ -6,14 +6,14 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
+import NavbarContainer from "../components/navbarContainer"
 
 
 const Contact = ({ siteTitle }) => (
 <>
-<Header />
-<Container>
-<h1>Contact Me</h1>
-<Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+<NavbarContainer />
+<h1 class="title">Contact Me</h1>
+<Form name="contact" method="post" className="form">
 <input type="hidden" name="form-name" value="contact" />
   <Form.Row>
     <Form.Group as={Col} controlId="formGridFirstName">
@@ -41,7 +41,6 @@ const Contact = ({ siteTitle }) => (
     Submit
   </Button>
 </Form>
-</Container>
 </>)
 
 export default Contact
