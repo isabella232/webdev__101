@@ -6,6 +6,7 @@ import NavbarContainer from "../components/navbarContainer"
 
 const Contact = ({ siteTitle }) => (
 <>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Permanent+Marker&display=swap" rel="stylesheet"></link>
 <NavbarContainer />
 <h1 class="title">Contact Me</h1>
 <Form name="contact" method="post" className="form">

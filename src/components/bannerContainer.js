@@ -9,7 +9,7 @@ const BannerContainer = (props) => (
 <Card className="bg-dark text-white">
   <Card.Img src="../bwgradient.jpg" alt="Card image" />
   <Card.ImgOverlay>
-    <Card.Text className="banner-big-text">{props.title}</Card.Text>
+    <Card.Text className="banner-big-text tracking-in-expand">{props.title}</Card.Text>
     <Card.Text className="banner-small-text"> 
     {props.subtitle}
     </Card.Text>

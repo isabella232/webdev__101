@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/styles.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 //Import Components
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -14,7 +15,7 @@ const NavbarContainer = () => (
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
         <Nav.Link className="linkText" href="/about">About Me</Nav.Link>
-        <Nav.Link className="linkText" href="/work">Work</Nav.Link>
+        <Nav.Link className="linkText" href="/#employment">Work</Nav.Link>
         <Nav.Link className="linkText" href="/contact">Contact Me</Nav.Link>
     </Nav>
     </Navbar.Collapse>
