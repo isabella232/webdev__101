@@ -1,0 +1,104 @@
+about:
+  title: About Bodie
+  description:
+    Hi, I’m Bodie and I’m the Chief Morale Officer for Jobber.
+
+    Sometimes you’ll hear me referred to as Bo, Bodester, Bo Bo, Boobie, Butt Face, Monkey, Tender Tot, or Nugget. My mum is Jaryn and she works on the 4th floor. If you’re new, come on up and meet the both of us. We’re friendly.
+
+    Important things to know about me
+    I’m a terrier. What does that mean? I’m active, alert, lively, playful, friendly, obedient, intelligent, and smart.
+
+    Active
+    Come up to where I work (4th floor) and play with me anytime. I love to play fetch and have lots of toys you can choose from. Let’s be active together!
+
+    Alert
+    I act as a doorbell for the whole office. If someone comes in, I want to tell the world about it. In the case that you’re the person coming in, don’t worry, I’m just letting everyone else know that you’re here. YAY, you’ve arrived! It may come out as a growl but it’s only because I wear a bark collar when I’m on the job so it’s my plan b when I can’t bark.
+
+    Lively
+    I’m very outgoing and am definitely not shy. Sometimes I might even see you walking by and try to play with your sock… specifically when it’s still on your foot. Don’t be scared, it’s cuz I like you. Usually you just have to look down at me and say hi and I’ll be on my way.
+
+    Playful
+    Whatever the game you wanna play, I’m in.
+
+    Friendly
+    I truly am a tender tot, you just gotta get to know me. Suggestion - If you can catch me, scoop me up and snuggle me, I love it.
+
+    Obedient + Intelligent + Smart -
+    Well duh, look at me. I’m a wise grey mage with a deep doggo wisdom. I know tricks! Like, sit, down, spin, high five, and sit pretty.
+
+    That’s it! Come on up and meet me some time!
+
+    P.S. Don’t let me into the elevator without my mom. I really like the elevator.
+
+    P.P.S. Obviously I love treats. If you want to give me one you can either get some from my mum or she said I can eat baby carrots (broken into small pieces), snap peas, Babybell cheese, crackers, and banana.
+  carousel:
+    - content:
+      src: bodie_out_doors.jpg
+      alt: First slide
+      title: Photo Number One
+      description: Description number one.
+    - content:
+      src: bodie_out_doors_two.jpg
+      alt: Second slide
+      title: Second slide label
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - content:
+      src: bodie_out_doors_three.jpg
+      alt: Third slide
+      title: Third slide label
+      description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+banner:
+  name: Bodie
+  title: Chief Morale Officer
+contact:
+work:
+  title: Employment
+  description: Hey i'm Bodie and I am the chief morale officer at Jobber
+  workSection:
+    - content:
+      title: Puppy School
+      text: passed with flying colors, best puppy around
+      img:
+      alt: puppy school
+    - content:
+      title: Welcome Mat
+      text: I graduated from the esteemed college of welcome mat
+      img:
+      alt: welcome mat
+index:
+  title: Employment and Experience
+  content: Testeroni
+  buttonText: Learn more
+notFound:
+  error: "404 Error"
+title: heh
+header:
+  logo:
+    title: Bodie
+    link: /
+  navigation:
+    - content:
+      title: About Me
+      link: /about
+    - content:
+      title: Work
+      link: /work
+    - content:
+      title: Contact
+      link: /contact
+card:
+  - content:
+    title: Instagram
+    text: If you want to keep up with my shenanigans follow me on Instagram
+    imgSrc: ../bodieflag.jpg
+    url: https://www.instagram.com/bodie.break/
+  - content:
+    title: Cheese
+    text: One of my favourite snacks in the world is babybell cheese!
+    imgSrc: ../bodiedonut.jpg
+    url: https://www.minibabybel.ca/en-ca/products
+  - content:
+    title: Schnauzers
+    text: Would you like to learn more about Schnauzers?
+    imgSrc: ../bodiesit.jpg
+    url: https://www.hillspet.com/dog-care/dog-breeds/standard-schnauzer

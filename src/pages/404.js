@@ -1,9 +1,11 @@
 import React from "react"
+import content from "../content/contentYAML.yaml"
 
 
 const NotFoundPage = () => (
   <div>
-    <p>404 Error</p>
+    <p>{content.notFound.error};
+    }</p>
   </div>
 )
 

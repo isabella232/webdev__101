@@ -12,7 +12,7 @@ const JumbotronContainer = (props) => {
                 {props.message}
             </p>
             <p>
-                <Link to="/work"><Button variant="dark">Learn more</Button></Link>
+            <Link to="/work"><Button variant="dark">{props.buttonText}</Button></Link>
             </p>
         </Jumbotron>
         </div>

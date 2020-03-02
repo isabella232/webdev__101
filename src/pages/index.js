@@ -9,6 +9,8 @@ import JumbotronContainer from "../components/jumbotron"
 import NavbarContainer from "../components/navbarContainer"
 import BannerContainer from "../components/bannerContainer";
 import WorkContainer from "../components/workContainer"
+import content from "../content/contentYAML.yaml"
+
 
 
 const IndexPage = () => (
@@ -17,8 +19,9 @@ const IndexPage = () => (
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Permanent+Marker&display=swap" rel="stylesheet"></link>
     <NavbarContainer />
     <BannerContainer
-      title = "BODIE"
-      subtitle = "The one and only Jobber chief moral officer."
+       title = {content.index.title}
+       message = {content.index.content}
+       buttonText={content.index.buttonText}
     />
     <Cards />
     <WorkContainer />
