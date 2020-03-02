@@ -14,23 +14,23 @@ const Contact = ({ siteTitle }) => (
   <Form.Row>
     <Form.Group as={Col} controlId="formGridFirstName">
       <Form.Label>First Name</Form.Label>
-      <Form.Control type="name" placeholder="Enter First Name" />
+      <Form.Control name = "firstName" type="name" placeholder="Enter First Name" />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridLastName">
       <Form.Label>Last Name</Form.Label>
-      <Form.Control type="name" placeholder="Enter Last Name" />
+      <Form.Control name = "lastName" type="name" placeholder="Enter Last Name" />
     </Form.Group>
   </Form.Row>
 
   <Form.Group controlId="formGridEmailAddress">
     <Form.Label>Email Address</Form.Label>
-    <Form.Control placeholder="email@example.com" />
+    <Form.Control name = "email" placeholder="email@example.com" />
   </Form.Group>
 
   <Form.Group controlId="formGridAddress2">
     <Form.Label>Message</Form.Label>
-    <Form.Control as="textarea" rows="3" />
+    <Form.Control name = "message" as="textarea" rows="3" />
   </Form.Group>
 
   <Button variant="primary" type="submit">
