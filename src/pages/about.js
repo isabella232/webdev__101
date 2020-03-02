@@ -1,12 +1,12 @@
 import React from "react"
-import Header from "../components/header"
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import content from '../content/contentYAML.yaml'
+import NavbarContainer from "../components/navbarContainer"
 
 const SecondPage = () => (
 <>
-<Header />
+<NavbarContainer />
 <Container>
     <h1> {content.about.title}</h1>
     <p> {content.about.description}

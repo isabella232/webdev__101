@@ -8,6 +8,8 @@ const Cards = () => {
     const card = content && content.card || []
     return(
         <div class="top-item cards">
+            <h1 className="title text-pop-up-right"> Projects </h1>
+            <br />
             <CardDeck>
             {card.map((cardInfo) => {
               return  <CardContainer
