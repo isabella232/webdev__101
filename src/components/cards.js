@@ -5,6 +5,8 @@ import CardContainer from "../components/cardContainer"
 const Cards = () => {
     return(
         <div class="top-item cards">
+            <h1 className="title text-pop-up-right"> Projects </h1>
+            <br />
             <CardDeck>
             <CardContainer
                 title="Arcade Machine"
