@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import React from "react"
 import Header from "../components/header"
 import Form from 'react-bootstrap/Form'
-import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
