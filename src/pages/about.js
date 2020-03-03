@@ -1,16 +1,14 @@
 import React from "react"
-import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import content from '../content/contentYAML.yaml'
 import NavbarContainer from "../components/navbarContainer"
 
 const SecondPage = () => (
 <>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Permanent+Marker&display=swap" rel="stylesheet"></link>
 <NavbarContainer />
-<Container>
-    <h1> {content.about.title}</h1>
-    <p> {content.about.description}
-    </p>
+<h1 className="title"> {content.about.title}</h1>
+<p className="title-subtext"> {content.about.description}</p>
     <div className="slider">
         <Carousel>
        {content.about.carousel.map((card)=> {
@@ -20,16 +18,10 @@ const SecondPage = () => (
                 src={card.src}
                 alt={card.alt}
                 />
-                <Carousel.Caption>
-                    <h3>{card.title}</h3>
-                    <p>{card.description}</p>
-                </Carousel.Caption>
                 </Carousel.Item>
         })}
         </Carousel>
     </div>
-</Container>
-
 </>
 )
 export default SecondPage

@@ -19,9 +19,8 @@ const IndexPage = () => (
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Permanent+Marker&display=swap" rel="stylesheet"></link>
     <NavbarContainer />
     <BannerContainer
-       title = {content.index.title}
-       message = {content.index.content}
-       buttonText={content.index.buttonText}
+       title = {content.banner.name}
+       message = {content.banner.message}
     />
     <Cards />
     <WorkContainer />

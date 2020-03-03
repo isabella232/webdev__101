@@ -11,7 +11,7 @@ const BannerContainer = (props) => (
   <Card.ImgOverlay>
     <Card.Text className="banner-big-text tracking-in-expand">{props.title}</Card.Text>
     <Card.Text className="banner-small-text"> 
-    {props.subtitle}
+    {props.message}
     </Card.Text>
   </Card.ImgOverlay>
 </Card>
