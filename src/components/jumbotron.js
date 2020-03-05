@@ -6,7 +6,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 const JumbotronContainer = (props) => {
     return(
         <div class="cards">
-        <Jumbotron fluid>
+        <Jumbotron fluid className="jumbotron-image">
             <h1>{props.title}</h1>
             <p>
                 {props.message}

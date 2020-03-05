@@ -26,23 +26,23 @@ about:
     pps: P.P.S. Obviously I love treats. If you want to give me one you can either get some from my mum or she said I can eat baby carrots (broken into small pieces), snap peas, Babybell cheese, crackers, and banana.
   carousel:
     - content:
-      src: bodie_out_doors.jpg
+      src: ../bodie_out_doors.jpg
       alt: First slide
       title: Photo Number One
       description: Description number one.
     - content:
-      src: bodie_out_doors_two.jpg
+      src: ../bodie_out_doors_two.jpg
       alt: Second slide
       title: Second slide label
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - content:
-      src: bodie_out_doors_three.jpg
+      src: ../bodie_out_doors_three.jpg
       alt: Third slide
       title: Third slide label
       description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.
 banner:
   name: Bodie
-  title: Chief Morale Officer
+  message: Chief Morale Officer
 contact:
 work:
   title: Employment

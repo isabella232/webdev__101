@@ -1,19 +1,16 @@
-import { Link } from "gatsby"
 import React from "react"
-import Header from "../components/header"
 import Form from 'react-bootstrap/Form'
 import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
-
+import NavbarContainer from "../components/navbarContainer"
 
 const Contact = ({ siteTitle }) => (
 <>
-<Header />
-<Container>
-<h1>Contact Me</h1>
-{/* Replace "youremail@email.com" with your email address */}
-<Form name="contact" action="https://formspree.io/youremail@email.com" method="post">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bowlby+One+SC|Permanent+Marker&display=swap" rel="stylesheet"></link>
+<NavbarContainer />
+<h1 class="title">Contact Me</h1>
+<Form name="contact" method="post" className="form">
+<input type="hidden" name="form-name" value="contact" />
   <Form.Row>
     <Form.Group as={Col} controlId="formGridFirstName">
       <Form.Label>First Name</Form.Label>
@@ -40,7 +37,6 @@ const Contact = ({ siteTitle }) => (
     Submit
   </Button>
 </Form>
-</Container>
 </>)
 
 export default Contact
