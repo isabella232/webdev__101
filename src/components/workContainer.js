@@ -18,7 +18,7 @@ const WorkContainer = () => (
   <br/>
   <Row>
     <Col className="cards">
-    <img src="../saskatoon.jpg" alt="Hockey" width="100%"></img>
+    <img src="../bodieBall.jpg" alt="Bodie Ball" width="100%"></img>
     </Col>
     <Col className="cards">
     <CardContainer title="Professional Ball Retreiver" text="My years before Jobber helped to prepare me for what was to come. I spent hours tirelessly running and retreiving, then returning objects. Run, retreive, return... run, retreive, return! Over and over. I am very highly skilled at this." /> 
