@@ -20,8 +20,9 @@ const Fact = () => {
                         <div>
                             <Card border="light"> 
                                 <Card.Body>
-                                    Here's 5 random dog facts! 
-                                    {data.map(fact => <li key={fact[0]}>{fact[1]}</li>)}
+                                    <p>Here are 5 random dog facts!</p>
+                                    <div>{data.map(fact => <li key={fact[0]}>{fact[1]}</li>)}</div>
+                                    <Card.Link href="http://kinduff.com/dog-api" target="_blank" rel="noopener noreferrer">API for Dog Facts</Card.Link>
                                 </Card.Body>
                             </Card>
                         </div>

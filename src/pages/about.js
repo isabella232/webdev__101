@@ -16,12 +16,14 @@ const SecondPage = () => (
             <p>{content.about.description.intro}</p>
             {content.about.description.breed.title}
             <p>{content.about.description.breed.body}</p>
-            <p>{content.about.description.active}</p>
-            <p>{content.about.description.alert}</p>
-            <p>{content.about.description.lively}</p>
-            <p>{content.about.description.playful}</p>
-            <p>{content.about.description.friendly}</p>
-            <p>{content.about.description.obedient}</p>
+            <div>
+                <li>{content.about.description.active}</li>
+                <li>{content.about.description.alert}</li>
+                <li>{content.about.description.lively}</li>
+                <li>{content.about.description.playful}</li>
+                <li>{content.about.description.friendly}</li>
+                <li>{content.about.description.obedient}</li>
+            </div>
             <p>{content.about.description.outro}</p>
             <p>{content.about.description.ps}</p>
             <p>{content.about.description.pps}</p>
