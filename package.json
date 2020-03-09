@@ -27,6 +27,8 @@
     "smooth-scroll": "^16.1.2"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
     "prettier": "^1.19.1",
     "react-social-icons": "^4.1.0"
   },
@@ -41,7 +43,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint 'src/**/*.{js,jsx}'"
   },
   "repository": {
     "type": "git",
