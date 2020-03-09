@@ -1,8 +1,4 @@
-$font: "Helvetica Neue";
-
-//Colors
-$white: #fff;
-$black: #000;
+@import './variables';
 
 .form {
 margin: 30px;
@@ -66,12 +62,7 @@ margin: 30px;
     // font-family: 'Bowlby One SC', ;
 }
 
-.homeText{
-    font-weight: 700;
-                text-decoration: none;
-                letter-spacing: 1.5px;
-                color: $black;
-}
+
 
 .linkText{
     margin: 0 20px;
