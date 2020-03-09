@@ -1,9 +1,11 @@
 import React from 'react';
 
 import Site from '../components/Site';
+import BannerContainer from '../components/BannerContainer';
 import Cards from '../components/cards';
-import BannerContainer from '../components/bannerContainer';
 import WorkContainer from '../components/workContainer';
+import SectionHeader from '../components/SectionHeader';
+
 import content from '../content/contentYAML.yaml';
 
 const IndexPage = () => (
@@ -13,7 +15,14 @@ const IndexPage = () => (
         title={content.banner.name}
         message={content.banner.message}
       />
+      <SectionHeader
+        title="Projects"
+      />
       <Cards />
+      <SectionHeader
+        title={content.employment.title}
+        content={content.employment.content}
+      />
       <WorkContainer />
     </Site>
   </>

@@ -5,9 +5,6 @@ import CardContainer from './cardContainer';
 
 const WorkContainer = () => (
   <>
-    <h1 id="employment" className="title"> Employment </h1>
-    <p className="title-subtext">I am proud to be a Schnauzer, I&apos;ve got it all in one small package: intelligence, affection, an extroverted temperament, humor, and a personality that’s twice as big as I am. Throw in that walrus moustache and quivering enthusiasm, and I&apos;ll make you laugh every day. I&apos;ve got personality-plus, whether I&apos;m bounding around ahead of you or curled up snoozing on your lap, you’ll never be bored with me around.</p>
-    <br />
     <Row>
       <Col className="cards">
         <CardContainer title="Chief Moral Officer" text="I am proud to say that everyday I make a lasting contribution to the team at Jobber. I bring so many smiles to peoples faces and singlehandedly increase moral. As one of the longest standing Jobber employee's I have had a lasting impact and my legacy will forever live on at Jobber." />

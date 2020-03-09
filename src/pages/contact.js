@@ -4,11 +4,14 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 import Site from '../components/Site';
+import SectionHeader from '../components/SectionHeader';
 
 const Contact = () => (
   <>
     <Site title="Contact Bodie">
-      <h1 className="title">Contact Me</h1>
+      <SectionHeader
+        title="Contact Me"
+      />
       <Form name="contact" method="post" className="form">
         <input type="hidden" name="form-name" value="contact" />
         <Form.Row>

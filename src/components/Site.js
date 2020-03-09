@@ -4,6 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 
 import NavbarContainer from './NavbarContainer';
 
+import '../styles/styles.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Site = ({ title, children }) => (
   <>
     <Helmet>

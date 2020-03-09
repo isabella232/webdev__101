@@ -2,20 +2,18 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 import Site from '../components/Site';
+import SectionHeader from '../components/SectionHeader';
 
 import content from '../content/contentYAML.yaml';
 
 const AboutPage = () => (
   <>
     <Site title="About Bodie">
-      <h1 className="title">
-        {' '}
-        {content.about.title}
-      </h1>
-      <p className="title-subtext">
-        {' '}
-        {content.about.description}
-      </p>
+      <SectionHeader
+        title={content.about.title}
+        content={content.about.description}
+      />
+
       <div className="slider">
         <Carousel>
           {content.about.carousel.map((card) => (
