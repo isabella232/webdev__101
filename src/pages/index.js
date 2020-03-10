@@ -2,7 +2,7 @@ import React from 'react';
 
 import Site from '../components/Site';
 import BannerContainer from '../components/BannerContainer';
-import Cards from '../components/cards';
+import Cards from '../components/Cards';
 import WorkContainer from '../components/workContainer';
 import SectionHeader from '../components/SectionHeader';
 

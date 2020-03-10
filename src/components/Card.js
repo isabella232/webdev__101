@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-const CardContainer = ({
+const CardContianer = ({
   url,
   imgSrc,
   title,
@@ -22,4 +22,4 @@ const CardContainer = ({
   </>
 );
 
-export default CardContainer;
+export default CardContianer;
