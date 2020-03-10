@@ -1,8 +1,4 @@
-$font: "Helvetica Neue";
-
-//Colors
-$white: #fff;
-$black: #000;
+@import './variables';
 
 .form {
 margin: 30px;
@@ -53,25 +49,9 @@ margin: 30px;
 
 
 
-.title{
-    margin-left: 2vw;
-    margin-top: 2vw;
-    font-family: 'Permanent Marker', ;
-}
 
-.title-subtext{
-    // font-size: 2vw;
-    margin-left: 2vw;
-    margin-top: 2vw;
-    // font-family: 'Bowlby One SC', ;
-}
 
-.homeText{
-    font-weight: 700;
-                text-decoration: none;
-                letter-spacing: 1.5px;
-                color: $black;
-}
+
 
 .linkText{
     margin: 0 20px;
@@ -123,39 +103,6 @@ header {
     }
 
     }
-}
-
-//Banner
-.banner-big-text {
-    font-size: 8vw;
-    text-transform: uppercase;
-    letter-spacing: 4.1vw;
-    font-weight: 900;
-    color: $white;
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: 20%;
-    // transform: translateY(-50%);
-    text-align: center;
-    mix-blend-mode: difference;
-    z-index: 9;
-}
-
-.banner-small-text {
-    // viewport width relative font to scale appropriately for different window sizes
-    font-size: 2.1vw;
-    text-transform: uppercase;
-    letter-spacing: 2.1vw;
-    font-weight: 300;
-    color: $white;
-    position: relative;
-    width: 100%;
-    top: 30%;
-    //transform: translateY(-50%);
-    text-align: center;
-    mix-blend-mode: difference;
-    // z-index: 10;
 }
 
 .top-item{

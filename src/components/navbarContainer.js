@@ -1,27 +1,26 @@
-import React from "react"
-import "../styles/styles.scss"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import {
+  Container,
+  Navbar,
+  Nav,
+} from 'react-bootstrap';
 
-
-//Import Components
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import '../styles/_NavbarContainer.scss';
 
 const NavbarContainer = () => (
-  <div>
-    <Navbar bg="light" expand="lg" className="naver">
-    <Navbar.Brand className = "homeText" href="/">Bodie</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="ml-auto">
-        <Nav.Link className="linkText" href="/about">About Me</Nav.Link>
-        <Nav.Link className="linkText" href="/#employment">Work</Nav.Link>
-        <Nav.Link className="linkText" href="/contact">Contact Me</Nav.Link>
-    </Nav>
-    </Navbar.Collapse>
-    </Navbar>
+  <Navbar bg="light" expand="lg" sticky="top">
+    <Container>
+      <Navbar.Brand className="homeText" href="/">BODIE</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link className="linkText" href="/about">About Me</Nav.Link>
+          <Nav.Link className="linkText" href="/#employment">Work</Nav.Link>
+          <Nav.Link className="linkText" href="/contact">Contact Me</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+);
 
-</div> 
-)
-
-export default NavbarContainer
+export default NavbarContainer;
