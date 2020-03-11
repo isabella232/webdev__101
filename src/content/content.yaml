@@ -1,3 +1,6 @@
+banner:
+  name: Bodie
+  message: Chief Morale Officer
 about:
   title: About Bodie
   description:
@@ -41,9 +44,6 @@ about:
       alt: Third slide
       title: Third slide label
       description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-banner:
-  name: Bodie
-  message: Chief Morale Officer
 contact:
 work:
   title: Employment

@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 import Navigation from '../Navigation/Navigation';
 
+import '../../styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Page = ({ title, children }) => (

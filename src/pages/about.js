@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import content from '../content/contentYAML.yaml';
+import content from '../content/content.yaml';
 import Fact from '../components/fact';
 import Page from '../components/Page/Page';
 import SectionHeader from '../components/SectionHeader';

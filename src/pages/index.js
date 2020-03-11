@@ -1,17 +1,17 @@
 import React from 'react';
 
 import Page from '../components/Page/Page';
-import BannerContainer from '../components/BannerContainer';
+import Banner from '../components/Banner/Banner';
 import Cards from '../components/Cards';
 import WorkContainer from '../components/workContainer';
 import SectionHeader from '../components/SectionHeader';
 
-import content from '../content/contentYAML.yaml';
+import content from '../content/content.yaml';
 
 const IndexPage = () => (
   <>
     <Page title="Bodie | Personal Website">
-      <BannerContainer
+      <Banner
         title={content.banner.name}
         message={content.banner.message}
       />

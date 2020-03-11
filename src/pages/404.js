@@ -1,5 +1,5 @@
 import React from 'react';
-import content from '../content/contentYAML.yaml';
+import content from '../content/content.yaml';
 
 
 const NotFoundPage = () => (
