@@ -20,7 +20,7 @@ const IndexPage = () => (
 
       <Container>
         <Row className="justify-content-md-center">
-          <Col xs lg="6" className="text-center">
+          <Col xs lg="8" className="text-center">
             <h1>Projects</h1>
           </Col>
         </Row>
