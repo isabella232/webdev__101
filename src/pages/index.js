@@ -1,30 +1,54 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import Site from '../components/Site';
-import BannerContainer from '../components/BannerContainer';
-import Cards from '../components/Cards';
-import WorkContainer from '../components/workContainer';
-import SectionHeader from '../components/SectionHeader';
+import Page from '../components/Page/Page';
+import Banner from '../components/Banner/Banner';
+import Cards from '../components/Cards/Cards';
+import Employment from '../components/Employment/Employment';
+import Spacer from '../components/Spacer/Spacer';
 
-import content from '../content/contentYAML.yaml';
+import content from '../content/content.yaml';
 
 const IndexPage = () => (
   <>
-    <Site title="Bodie | Personal Website">
-      <BannerContainer
+    <Page title="Bodie | Personal Website">
+      <Banner
         title={content.banner.name}
         message={content.banner.message}
       />
-      <SectionHeader
-        title="Projects"
-      />
-      <Cards />
-      <SectionHeader
-        title={content.employment.title}
-        content={content.employment.content}
-      />
-      <WorkContainer />
-    </Site>
+
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col xs lg="8" className="text-center">
+            <h1>Projects</h1>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+          <Col>
+            <Cards cards={content.cards} />
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacer size={5} id="employment" />
+
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col xs lg="8" className="text-center">
+            <h1>{content.employment.title}</h1>
+            <p>{content.employment.content}</p>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+          <Col>
+            <Employment cards={content.employment.cards} />
+          </Col>
+        </Row>
+      </Container>
+
+    </Page>
   </>
 );
 

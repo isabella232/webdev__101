@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black);
+    padding: 5rem 0;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer .social-icon {
+    margin: 0 .5rem;
+    transform: scale(1);
+    transition: transform 300ms;
+}
+
+.footer .social-icon:hover {
+    transform: scale(1.1);
+}

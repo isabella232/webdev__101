@@ -1,0 +1,58 @@
+.banner-overlay {
+  box-shadow: 0 0 0 1px white;
+}
+
+.banner-big-text {
+  font-size: 10vw;
+  text-transform: uppercase;
+  letter-spacing: 4vw;
+  font-weight: 900;
+  color: var(--color-white);
+  position: relative;
+  top: 20%;
+  text-align: center;
+  mix-blend-mode: difference;
+}
+
+.banner-small-text {
+  font-size: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 2vw;
+  font-weight: 300;
+  color: var(--color-white);
+  position: relative;
+  top: 25%;
+  text-align: center;
+  mix-blend-mode: difference;
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

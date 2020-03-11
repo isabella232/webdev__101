@@ -1,13 +1,13 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { SocialIcon } from 'react-social-icons';
 
-import NavbarContainer from './NavbarContainer';
+import Navigation from '../Navigation/Navigation';
+import Footer from '../Footer/Footer';
 
-import '../styles/styles.scss';
+import '../../styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Site = ({ title, children }) => (
+const Page = ({ title, children }) => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
@@ -18,19 +18,15 @@ const Site = ({ title, children }) => (
       />
     </Helmet>
     <div className="site">
-      <NavbarContainer />
+      <Navigation />
 
       <main className="main">
         {children}
       </main>
 
-      <footer>
-        <SocialIcon url="http://twitter.com/jaketrent" />
-        <SocialIcon url="http://github.com" />
-        <SocialIcon url="http://linkedin.com" />
-      </footer>
+      <Footer />
     </div>
   </>
 );
 
-export default Site;
+export default Page;

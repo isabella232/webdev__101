@@ -1,13 +1,12 @@
 import React from 'react';
-
 import { Card } from 'react-bootstrap';
 
-import '../styles/_BannerContainer.scss';
+import './Banner.css';
 
 const BannerContainer = ({ message, title }) => (
-  <Card className="bg-dark text-white border-0">
+  <Card>
     <Card.Img src="../blackBokehcuttoff.png" alt="Home Page Banner" />
-    <Card.ImgOverlay>
+    <Card.ImgOverlay className="banner-overlay">
       <Card.Text className="banner-big-text tracking-in-expand">
         {title}
       </Card.Text>
