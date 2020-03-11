@@ -1,6 +1,24 @@
 banner:
   name: Bodie
   message: Chief Morale Officer
+
+cards:
+  - content:
+    title: Instagram
+    text: If you want to keep up with my shenanigans follow me on Instagram
+    imgSrc: ../bodieflag.jpg
+    url: https://www.instagram.com/bodie.break/
+  - content:
+    title: Cheese
+    text: One of my favourite snacks in the world is babybell cheese!
+    imgSrc: ../bodiedonut.jpg
+    url: https://www.minibabybel.ca/en-ca/products
+  - content:
+    title: Schnauzers
+    text: Would you like to learn more about Schnauzers?
+    imgSrc: ../bodiesit.jpg
+    url: https://www.hillspet.com/dog-care/dog-breeds/standard-schnauzer
+
 about:
   title: About Bodie
   description:
@@ -80,22 +98,6 @@ header:
     - content:
       title: Contact
       link: /contact
-card:
-  - content:
-    title: Instagram
-    text: If you want to keep up with my shenanigans follow me on Instagram
-    imgSrc: ../bodieflag.jpg
-    url: https://www.instagram.com/bodie.break/
-  - content:
-    title: Cheese
-    text: One of my favourite snacks in the world is babybell cheese!
-    imgSrc: ../bodiedonut.jpg
-    url: https://www.minibabybel.ca/en-ca/products
-  - content:
-    title: Schnauzers
-    text: Would you like to learn more about Schnauzers?
-    imgSrc: ../bodiesit.jpg
-    url: https://www.hillspet.com/dog-care/dog-breeds/standard-schnauzer
 employment: 
   title: Employment
   content: I am proud to be a Schnauzer, I've got it all in one small package&#58; intelligence, affection, an extroverted temperament, humor, and a personality that’s twice as big as I am. Throw in that walrus moustache and quivering enthusiasm, and I&apos;ll make you laugh every day. I&apos;ve got personality-plus, whether I&apos;m bounding around ahead of you or curled up snoozing on your lap, you’ll never be bored with me around.

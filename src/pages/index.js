@@ -2,7 +2,7 @@ import React from 'react';
 
 import Page from '../components/Page/Page';
 import Banner from '../components/Banner/Banner';
-import Cards from '../components/Cards';
+import Cards from '../components/Cards/Cards';
 import WorkContainer from '../components/workContainer';
 import SectionHeader from '../components/SectionHeader';
 
@@ -18,7 +18,7 @@ const IndexPage = () => (
       <SectionHeader
         title="Projects"
       />
-      <Cards />
+      <Cards cards={content.cards} />
       <SectionHeader
         title={content.employment.title}
         content={content.employment.content}

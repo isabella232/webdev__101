@@ -1,3 +1,7 @@
+.banner-overlay {
+  box-shadow: 0 0 0 1px white;
+}
+
 .banner-big-text {
   font-size: 10vw;
   text-transform: uppercase;

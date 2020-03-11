@@ -6,7 +6,7 @@ import './Banner.css';
 const BannerContainer = ({ message, title }) => (
   <Card>
     <Card.Img src="../blackBokehcuttoff.png" alt="Home Page Banner" />
-    <Card.ImgOverlay>
+    <Card.ImgOverlay className="banner-overlay">
       <Card.Text className="banner-big-text tracking-in-expand">
         {title}
       </Card.Text>
