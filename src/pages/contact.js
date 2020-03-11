@@ -14,13 +14,13 @@ import Spacer from '../components/Spacer/Spacer';
 const Contact = () => (
   <>
     <Page title="Contact Bodie">
+      <Jumbotron className="text-center" fluid bg="primary">
+        <h1>Contact Me</h1>
+      </Jumbotron>
       <Spacer size={5} />
       <Container>
         <Row className="justify-content-md-center">
           <Col xs lg="8">
-            <Jumbotron className="text-center">
-              <h1>Contact Me</h1>
-            </Jumbotron>
             <Form name="contact" method="post" className="form">
               <input type="hidden" name="form-name" value="contact" />
               <Form.Row>

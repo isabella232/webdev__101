@@ -6,7 +6,6 @@ import Banner from '../components/Banner/Banner';
 import Cards from '../components/Cards/Cards';
 import Employment from '../components/Employment/Employment';
 import Spacer from '../components/Spacer/Spacer';
-import SectionHeader from '../components/SectionHeader';
 
 import content from '../content/content.yaml';
 
