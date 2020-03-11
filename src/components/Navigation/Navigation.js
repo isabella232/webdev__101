@@ -5,22 +5,27 @@ import {
   Nav,
 } from 'react-bootstrap';
 
+import { header } from '../../content/content.yaml';
+
 import './Navigation.css';
 
-const Navigation = () => (
-  <Navbar bg="light" expand="lg" sticky="top">
-    <Container>
-      <Navbar.Brand className="homeText" href="/">BODIE</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse>
-        <Nav className="ml-auto">
-          <Nav.Link className="linkText" href="/about">About Me</Nav.Link>
-          <Nav.Link className="linkText" href="/#employment">Work</Nav.Link>
-          <Nav.Link className="linkText" href="/contact">Contact Me</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
-);
+const Navigation = () => {
+  const NavLinks = header.navigation.map(({ title, link }) => <Nav.Link className="linkText" href={link} key={title}>{title}</Nav.Link>);
+  return (
+    <Navbar bg="light" expand="lg" sticky="top">
+      <Container>
+        <Navbar.Brand className="homeText" href={header.logo.link}>
+          {header.logo.title}
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse>
+          <Nav className="ml-auto">
+            {NavLinks}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
 
 export default Navigation;
