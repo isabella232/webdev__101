@@ -21,6 +21,10 @@
     background-size: cover;
 }
 
+.employment > .card:empty {
+    padding-top: 80%;
+} 
+
 @media (min-width: 992px) {
     .employment > .card {
         margin: 0;
