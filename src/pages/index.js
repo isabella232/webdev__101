@@ -1,9 +1,11 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import Page from '../components/Page/Page';
 import Banner from '../components/Banner/Banner';
 import Cards from '../components/Cards/Cards';
 import Employment from '../components/Employment/Employment';
+import Spacer from '../components/Spacer/Spacer';
 import SectionHeader from '../components/SectionHeader';
 
 import content from '../content/content.yaml';
@@ -15,16 +17,38 @@ const IndexPage = () => (
         title={content.banner.name}
         message={content.banner.message}
       />
-      <SectionHeader
-        title="Projects"
-      />
-      <Cards cards={content.cards} />
-      <div id="employment" />
-      <SectionHeader
-        title={content.employment.title}
-        content={content.employment.content}
-      />
-      <Employment cards={content.employment.cards} />
+
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col xs lg="6" className="text-center">
+            <h1>Projects</h1>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+          <Col>
+            <Cards cards={content.cards} />
+          </Col>
+        </Row>
+      </Container>
+
+      <Spacer size={5} id="employment" />
+
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col xs lg="8" className="text-center">
+            <h1>{content.employment.title}</h1>
+            <p>{content.employment.content}</p>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+          <Col>
+            <Employment cards={content.employment.cards} />
+          </Col>
+        </Row>
+      </Container>
+
     </Page>
   </>
 );

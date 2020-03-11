@@ -25,11 +25,9 @@ const Cards = ({ cards }) => {
   ));
 
   return (
-    <Container>
-      <CardDeck>
-        {ListOfCards}
-      </CardDeck>
-    </Container>
+    <CardDeck>
+      {ListOfCards}
+    </CardDeck>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 import './Employment.css';
 
@@ -16,9 +16,9 @@ const Employment = ({ cards }) => {
     </Card>
   ));
   return (
-    <Container className="employment">
+    <div className="employment">
       {ListofCards}
-    </Container>
+    </div>
   );
 };
 

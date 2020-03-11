@@ -9,7 +9,7 @@ cards:
     imgSrc: ../bodieflag.jpg
     url: https://www.instagram.com/bodie.break/
   - content:
-    title: Cheese
+    title: Babybell Cheese
     text: One of my favourite snacks in the world is babybell cheese!
     imgSrc: ../bodiedonut.jpg
     url: https://www.minibabybel.ca/en-ca/products
@@ -21,7 +21,7 @@ cards:
 
 employment: 
   title: Employment
-  content: I am proud to be a Schnauzer, I've got it all in one small package&#58; intelligence, affection, an extroverted temperament, humor, and a personality that’s twice as big as I am. Throw in that walrus moustache and quivering enthusiasm, and I&apos;ll make you laugh every day. I&apos;ve got personality-plus, whether I&apos;m bounding around ahead of you or curled up snoozing on your lap, you’ll never be bored with me around.
+  content: "I am proud to be a Schnauzer, I've got it all in one small package: intelligence, affection, an extroverted temperament, humor, and a personality that’s twice as big as I am. Throw in that walrus moustache and quivering enthusiasm, and I'll make you laugh every day. I've got personality-plus, whether I'm bounding around ahead of you or curled up snoozing on your lap, you’ll never be bored with me around."
   cards:
     - content:
       className: first
@@ -41,7 +41,6 @@ employment:
     - content:
       title: Professional Ball Retreiver
       body: My years before Jobber helped to prepare me for what was to come. I spent hours tirelessly running and retreiving, then returning objects. Run, retreive, return... run, retreive, return! Over and over. I am very highly skilled at this.
-    
 
 about:
   title: About Bodie
