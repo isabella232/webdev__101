@@ -1,0 +1,18 @@
+.homeText{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--color-black);
+}
+
+.linkText{
+    margin: 0 2rem 0 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    font-weight: 600;
+    transition: all 300ms;
+}
+
+.navbar-nav .linkText:last-child {
+    margin: 0;
+}

@@ -3,12 +3,12 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-import Site from '../components/Site';
+import Page from '../components/Page/Page';
 import SectionHeader from '../components/SectionHeader';
 
 const Contact = () => (
   <>
-    <Site title="Contact Bodie">
+    <Page title="Contact Bodie">
       <SectionHeader
         title="Contact Me"
       />
@@ -40,7 +40,7 @@ const Contact = () => (
           Submit
         </Button>
       </Form>
-    </Site>
+    </Page>
 
   </>
 );

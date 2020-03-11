@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Site from '../components/Site';
+import Page from '../components/Page/Page';
 import BannerContainer from '../components/BannerContainer';
 import Cards from '../components/Cards';
 import WorkContainer from '../components/workContainer';
@@ -10,7 +10,7 @@ import content from '../content/contentYAML.yaml';
 
 const IndexPage = () => (
   <>
-    <Site title="Bodie | Personal Website">
+    <Page title="Bodie | Personal Website">
       <BannerContainer
         title={content.banner.name}
         message={content.banner.message}
@@ -24,7 +24,7 @@ const IndexPage = () => (
         content={content.employment.content}
       />
       <WorkContainer />
-    </Site>
+    </Page>
   </>
 );
 

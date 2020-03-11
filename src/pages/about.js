@@ -2,12 +2,12 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import content from '../content/contentYAML.yaml';
 import Fact from '../components/fact';
-import Site from '../components/Site';
+import Page from '../components/Page/Page';
 import SectionHeader from '../components/SectionHeader';
 
 const AboutPage = () => (
   <>
-    <Site title="About Bodie">
+    <Page title="About Bodie">
       <SectionHeader
         title={content.about.title}
         content={(
@@ -45,7 +45,7 @@ const AboutPage = () => (
           ))}
         </Carousel>
       </div>
-    </Site>
+    </Page>
   </>
 );
 export default AboutPage;
