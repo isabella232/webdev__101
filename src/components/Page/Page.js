@@ -1,8 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { SocialIcon } from 'react-social-icons';
 
 import Navigation from '../Navigation/Navigation';
+import Footer from '../Footer/Footer';
 
 import '../../styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,11 +24,7 @@ const Page = ({ title, children }) => (
         {children}
       </main>
 
-      <footer>
-        <SocialIcon url="http://twitter.com/jaketrent" />
-        <SocialIcon url="http://github.com" />
-        <SocialIcon url="http://linkedin.com" />
-      </footer>
+      <Footer />
     </div>
   </>
 );
